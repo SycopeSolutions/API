@@ -91,5 +91,5 @@ with requests.Session() as s:
 
     # Closing the REST API session
     # Session should be automatically closed in session context manager
-    r = s.get(host+'/logout', verify=False)
+    r = s.get(host+'/npm/api/v1/logout', verify=False)
     s.close()
