@@ -7,7 +7,6 @@
 
 import requests
 import json
-import ipaddress
 # Hiding SSL certificate warning messages
 #from urllib3.exceptions import InsecureRequestWarning
 #requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
